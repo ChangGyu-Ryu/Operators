@@ -81,6 +81,8 @@ public class Main {
         boolean wasCar = isCar ? true : false;
         if (wasCar) {
             System.out.println("wasCar is true");
+            System.out.println("wasCar was true");
         }
+
     }
 }
