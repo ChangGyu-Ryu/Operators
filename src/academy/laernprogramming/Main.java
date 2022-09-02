@@ -84,5 +84,27 @@ public class Main {
             System.out.println("wasCar was true");
         }
 
+        double firstDoubleVar = 20.00d;
+        System.out.println("FirstDoubleVar is " + firstDoubleVar);
+
+        double secondDoubleVar = 80.00d;
+
+        System.out.println("SecondDoubleVar is " + secondDoubleVar);
+
+        double thirdDoubleVar = (firstDoubleVar + secondDoubleVar) * 100.00d;
+
+        System.out.println("ThirdDoubleVar is " + thirdDoubleVar);
+
+        double fourthDoubleVar = thirdDoubleVar % 40.00d;
+
+        System.out.println("FourthDoubleVar is " + fourthDoubleVar);
+
+        boolean isRemainderTrue = (fourthDoubleVar == 0) ? true : false;
+
+        if(!isRemainderTrue) {
+            System.out.println("Got some remainder");
+        }
+
+
     }
 }
